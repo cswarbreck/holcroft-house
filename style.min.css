@@ -1017,8 +1017,14 @@ a.text-dark:hover,a.text-dark:focus{color:#1d2124 !important}
 .text-hide{font:0/0 a;color:transparent;text-shadow:none;background-color:transparent;border:0}
 .visible{visibility:visible !important}
 .invisible{visibility:hidden !important}
-body{background-color:pink;overflow:hidden}
-.homepage-content{padding-left:30vw;padding-top:30vh}
+body{background-color:white;overflow-x:hidden}
+body h1{font-size:73px}
+body h3{font-size:38px}
+.wrapper{font-family:'Cormorant SC',serif}
+.wrapper .masthead{text-align:center;color:white;background-image:url("assets/img/header.jpg");background-repeat:no-repeat;background-attachment:scroll;background-position:center center;background-size:cover;min-height:100vh}
+.wrapper .masthead .headline{text-align:center;padding-top:68vh}
+.wrapper .masthead .navigation{padding-top:2rem}
+.wrapper .content{height:100vh;text-align:justify}
 @media screen and (prefers-reduced-motion:reduce){.form-control{-webkit-transition:none;transition:none}
 .btn{-webkit-transition:none;transition:none}
 .fade{-webkit-transition:none;transition:none}

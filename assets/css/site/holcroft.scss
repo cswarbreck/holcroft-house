@@ -1,9 +1,39 @@
 body {
-    background-color: pink;
-    overflow: hidden;
+    background-color: white;
+    overflow-x: hidden;
+
+    h1{
+        font-size: 73px;
+    }
+    h3{
+        font-size: 38px;
+    }
 }
 
-.homepage-content{
-    padding-left: 30vw;
-    padding-top: 30vh;
+.wrapper{
+    font-family: 'Cormorant SC', serif;
+
+    .masthead{
+        text-align: center;
+        color: white;
+        background-image: url('assets/img/header.jpg');
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        background-position: center center;
+        background-size: cover;
+        min-height: 100vh;
+        .headline{
+            text-align: center;
+            padding-top: 68vh;    
+        }
+        .navigation{
+            padding-top: 2rem;
+/*             padding-left: 212px;
+            padding-right: 212px; */
+        }
+    }
+    .content{
+        height: 100vh;
+        text-align: justify;
+    }
 }
