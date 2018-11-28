@@ -3,16 +3,27 @@ body {
     overflow-x: hidden;
 
     h1{
-        font-size: 73px;
+        font-size: 32px;
+        @media(min-width: 576px){
+
+        }
+        @media(min-width: 768px){
+            font-size: 73px;
+        }
     }
     h3{
-        font-size: 38px;
+        font-size: 10px;
+        @media(min-width: 576px){
+
+        }
+        @media(min-width: 768px){
+            font-size: 38px;
+        }
     }
 }
 
 .wrapper{
     font-family: 'Cormorant SC', serif;
-
     .masthead{
         text-align: center;
         color: white;
@@ -21,19 +32,51 @@ body {
         background-attachment: scroll;
         background-position: center center;
         background-size: cover;
-        min-height: 100vh;
+        height: 75vh;
+        @media(min-width: 576px){
+
+        }
+        @media(min-width: 768px){
+            min-height: 100vh;
+        }
+
+        
         .headline{
             text-align: center;
-            padding-top: 68vh;    
+            padding-top: 60vh;
+            @media(min-width: 576px){
+
+            }
+            @media(min-width: 768px){
+                padding-top: 79vh;
+            }
+            h1{
+                margin-bottom: 0px;
+                height: 76px;
+
+            }    
         }
         .navigation{
-            padding-top: 2rem;
-/*             padding-left: 212px;
-            padding-right: 212px; */
+            
+            @media(min-width: 576px){
+
+            }
+            @media(min-width: 768px){
+                padding-top: 2rem;
+            }
         }
     }
     .content{
         height: 100vh;
         text-align: justify;
+        .content-left{
+            padding-top: 6rem;
+            .left{
+                padding-top: 4rem;
+            }
+        }
+        .content-right{
+            padding-top: 11.8rem;
+        }
     }
 }

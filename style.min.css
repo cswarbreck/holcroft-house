@@ -1018,13 +1018,16 @@ a.text-dark:hover,a.text-dark:focus{color:#1d2124 !important}
 .visible{visibility:visible !important}
 .invisible{visibility:hidden !important}
 body{background-color:white;overflow-x:hidden}
-body h1{font-size:73px}
-body h3{font-size:38px}
+body h1{font-size:32px}
+body h3{font-size:10px}
 .wrapper{font-family:'Cormorant SC',serif}
-.wrapper .masthead{text-align:center;color:white;background-image:url("assets/img/header.jpg");background-repeat:no-repeat;background-attachment:scroll;background-position:center center;background-size:cover;min-height:100vh}
-.wrapper .masthead .headline{text-align:center;padding-top:68vh}
-.wrapper .masthead .navigation{padding-top:2rem}
+.wrapper .masthead{text-align:center;color:white;background-image:url("assets/img/header.jpg");background-repeat:no-repeat;background-attachment:scroll;background-position:center center;background-size:cover;height:75vh}
+.wrapper .masthead .headline{text-align:center;padding-top:60vh}
+.wrapper .masthead .headline h1{margin-bottom:0;height:76px}
 .wrapper .content{height:100vh;text-align:justify}
+.wrapper .content .content-left{padding-top:6rem}
+.wrapper .content .content-left .left{padding-top:4rem}
+.wrapper .content .content-right{padding-top:11.8rem}
 @media screen and (prefers-reduced-motion:reduce){.form-control{-webkit-transition:none;transition:none}
 .btn{-webkit-transition:none;transition:none}
 .fade{-webkit-transition:none;transition:none}
@@ -1389,6 +1392,11 @@ body h3{font-size:38px}
 .text-md-left{text-align:left !important}
 .text-md-right{text-align:right !important}
 .text-md-center{text-align:center !important}
+body h1{font-size:73px}
+body h3{font-size:38px}
+.wrapper .masthead{min-height:100vh}
+.wrapper .masthead .headline{padding-top:79vh}
+.wrapper .masthead .navigation{padding-top:2rem}
 }@media(min-width:992px){.container{max-width:960px}
 .col-lg{-ms-flex-preferred-size:0;flex-basis:0;-webkit-box-flex:1;-ms-flex-positive:1;flex-grow:1;max-width:100%}
 .col-lg-auto{-webkit-box-flex:0;-ms-flex:0 0 auto;flex:0 0 auto;width:auto;max-width:none}
